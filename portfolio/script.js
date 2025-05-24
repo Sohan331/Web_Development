@@ -1,19 +1,14 @@
-const toggleBtn = document.getElementById('themeToggle');
-const body = document.body;
+const themeToggle = document.getElementById("themeToggle");
 
-if (localStorage.getItem('theme') === 'dark') {
-  body.classList.add('dark');
-  toggleBtn.textContent = '☀️';
-}
+themeToggle.onclick = function () {
+  document.body.classList.toggle("dark-theme");
 
-
-toggleBtn.addEventListener('click', () => {
-  body.classList.toggle('dark');
-
-  const isDark = body.classList.contains('dark');
-  toggleBtn.textContent = isDark ? '☀️' : '🌙';
-  localStorage.setItem('theme', isDark ? 'dark' : 'light');
-});
+  if (document.body.classList.contains("dark-theme")) {
+    themeToggle.textContent = "☀️";
+  } else {
+    themeToggle.textContent = "🌙";
+  }
+};
 
 
 document.getElementById("contactForm").addEventListener("submit", function (e) {
