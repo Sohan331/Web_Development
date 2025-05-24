@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maruf's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">🧠 Maruf</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle" class="theme-toggle" title="Toggle theme">🌙</button>
+    </nav>
+  </header>
+
+
+  <section class="hero">
+    <div class="hero-content">
+      <img src="Assets/profile_picture.jpg" alt="Maruf's Photo" class="profile-pic" />
+      <div>
+        <h1>Hey, I’m <span class="highlight">Maruf</span></h1>
+        <p>A curious soul exploring code, IoT & creativity. Always building something 🔧</p>
+        <a href="#projects" class="cta">Check Projects ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>📖 About Me</h2>
+    <p>I build digital products with code & caffeine. From smart metro QR systems to AI chatbots — I'm on a journey to craft smart things that make life easier. Let’s connect!</p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>🧰 Skills</h2>
+    <div class="skills-grid">
+      <div><img src="https://img.icons8.com/?size=100&id=40669&format=png&color=000000" alt="C++" width="26"> C++</div>
+      <div><img src="https://cdn-icons-png.flaticon.com/128/1822/1822899.png" alt="Figma" width="26"> Figma</div>
+      <div><img src="https://cdn-icons-png.flaticon.com/128/732/732212.png" alt="Web" width="26"> HTML/CSS/JS</div>
+      <div><img src="https://cdn-icons-png.flaticon.com/128/281/281764.png" alt="IoT" width="26"> IoT / Sensors</div>
+      <div><img src="https://cdn-icons-png.flaticon.com/128/753/753244.png" alt="AI" width="26"> AI / ML</div>
+      <div><img src="https://cdn-icons-png.flaticon.com/128/1006/1006544.png" alt="Problem Solving" width="26"> Problem Solving</div>
+      <div><img src="https://img.icons8.com/?size=100&id=40669&format=png&color=000000" alt="Python" width="26">Python</div>
+      <div><img src="Assets/matlab_icon.png" alt="Matlab" width="26">Matlab</div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+  <h2>🚀 Projects</h2>
+  <div class="projects">
+    <div class="project-card">
+      <img src="Assets/metro_rail.jpg" alt="QR Metro" class="project-img">
+      <h3>🔳 Metro QR System</h3>
+      <p>Designed a QR code-based metro ticketing system using real-time database + IoT microcontrollers.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="Assets/portfolio.png" alt="Personal Website" class="project-img">
+      <h3>🌐 Personal Website</h3>
+      <p>This sleek portfolio made with vanilla web tech — fully responsive, animated, and handcrafted.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="Assets/timer.png" alt="Count Down Timer" class="project-img">
+      <h3>⏱️ Count Down Timer</h3>
+      <p>A lightweight JS countdown timer with dynamic event tracking and visual alerts.</p>
+    </div>
+  
+   
+  </div>
+</section>
+
+
+  <section id="contact" class="section">
+    <h2>📬 Contact Me</h2>
+    <form id="contactForm" novalidate>
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Say something..." required></textarea>
+      <button type="submit">Send</button>
+      <p id="formMsg"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Maruf • Code meets creativity</p>
+  </footer>
+
+  
+</body>
+</html>

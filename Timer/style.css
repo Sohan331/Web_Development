@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 30px;
+
+}
+
+.container{
+ min-height: 350px;
+ min-width: 350px;
+ background-color: #fff;
+ display: flex;
+ flex-direction:column;
+    justify-content:center;
+    align-items:center;
+ 
+}
+.times{
+     display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 90px;
+}
