@@ -1,7 +1,7 @@
 :root {
-  --bg-color: linear-gradient(135deg, #f5f5f5, #e8eaf6);
+  --bg-color: lightgray;
   --text-color: #222;
-  --nav-bg: white;
+  --nav-bg: lightgray;
   --nav-text: #111;
   --nav-hover: #5c6bc0;
   --hero-p: #353535;
@@ -11,26 +11,33 @@
   --card-text: #000;
   --form-bg: #fff;
   --form-border: #ccc;
-  --footer-bg: #f0f0f0;
+  --footer-bg: lightgray;
   --footer-text: #000;
 }
 
 .dark-theme {
-  --bg-color: linear-gradient(135deg, #121212, #1e1e2f);
-  --text-color: #ffffff;
-  --nav-bg: #1f1f2e;
+  --bg-color: linear-gradient(135deg, #3a3a40, #2f2f38);
+  --text-color: #f0f0f0;
+
+  --nav-bg: #444454;
   --nav-text: #ddd;
-  --nav-hover: #9fa8da;
-  --hero-p: #ffffff;
-  --cta-bg: #7986cb;
-  --cta-hover: #5c6bc0;
-  --card-bg: #2a2a3b;
-  --card-text: #eee;
-  --form-bg: #333;
-  --form-border: #666;
-  --footer-bg: #2b2b2b;
-  --footer-text: #aaa;
+  --nav-hover: #aab3ff;
+
+  --hero-p: #eeeeee;
+
+  --cta-bg: #7f8ce0;
+  --cta-hover: #6570c0;
+
+  --card-bg: #3d3d4f;
+  --card-text: #f2f2f2;
+
+  --form-bg: #404050;
+  --form-border: #888;
+
+  --footer-bg: #484858;
+  --footer-text: #bbb;
 }
+
 
 body {
   margin: 0;
