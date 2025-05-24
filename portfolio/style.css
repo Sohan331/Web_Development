@@ -133,8 +133,8 @@ h2 {
 }
 
 .profile-pic {
-  width: 200px;
-  height: 200px;
+  width: 230px;
+  height: 230px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
